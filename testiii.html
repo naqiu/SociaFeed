@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SosiaFeed - Internal Tool</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom config for the Inter font and colors -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'primary': '#1e40af', // Blue 700
+                        'secondary': '#f9fafb', // Gray 50
+                        'accent': '#fbbf24', // Amber 400
+                        'danger': '#dc2626', // Red 600
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-secondary font-sans min-h-screen flex flex-col justify-between">
+
+    <!-- Header Section -->
+    <header class="bg-white shadow-md">
+        <div class="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-primary">SosiaFeed</h1>
+            <span class="text-sm text-gray-500 hidden sm:inline">Proprietary Internal Use Application</span>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="flex-grow flex items-center justify-center p-4">
+        <div class="max-w-3xl w-full text-center bg-white p-8 sm:p-12 rounded-2xl shadow-2xl border-t-4 border-primary">
+            
+            <!-- App Description -->
+            <h2 class="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-4">
+                SosiaFeed: Internal Tool Access
+            </h2>
+            <p class="text-lg text-gray-600 mb-8 max-w-xl mx-auto">
+                <span class="font-bold text-gray-900">SosiaFeed</span> is a proprietary, internal-use application developed by Ahmad Naqiuddin. Its sole function is to securely access and display <span class="font-bold text-gray-900">video feeds</span> from designated TikTok accounts on internal <span class="font-bold text-gray-900">reporting screens</span> for <span class="font-bold text-gray-900">Authorized Entities</span>.
+            </p>
+
+            <!-- Restricted Access Warning -->
+            <div class="bg-red-50 border-l-4 border-danger text-danger-700 p-4 rounded-lg shadow-inner mb-8 mx-auto max-w-md">
+                <p class="font-bold flex items-center justify-center">
+                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd"></path></svg>
+                    RESTRICTED ACCESS
+                </p>
+                <p class="text-sm mt-1">
+                    This application is for <span class="font-bold text-danger-800">Authorized Users and Licensee Entities</span> only. Public access is prohibited.
+                </p>
+            </div>
+
+            <!-- Note about access -->
+            <p class="text-lg text-gray-500 mt-10">
+                Access to the application is granted through established internal network protocols.
+            </p>
+            
+
+        </div>
+    </main>
+
+    <!-- Footer Section with Legal Links -->
+    <footer class="bg-white border-t border-gray-200">
+        <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 text-center text-sm text-gray-500 flex flex-col sm:flex-row justify-center sm:justify-between items-center">
+            
+            <p class="order-2 sm:order-1 mt-3 sm:mt-0">
+                &copy; 2025 Ahmad Naqiuddin. Licensed for Internal Use Only.
+            </p>
+
+            <div class="order-1 sm:order-2 space-x-4">
+                <a href="company_internal_agreement.html" class="text-primary hover:text-blue-700 transition duration-150">Terms of Use</a>
+                <span class="text-gray-300">|</span>
+                <a href="internal_tiktok_privacy_policy.html" class="text-primary hover:text-blue-700 transition duration-150">Privacy Policy</a>
+            </div>
+            
+        </div>
+    </footer>
+
+</body>
+</html>
