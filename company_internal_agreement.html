@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SosiaFeed Internal Access Policy and Terms of Use</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom config for the Inter font and colors -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'primary': '#1d4ed8', // Blue 700
+                        'secondary': '#f3f4f6', // CORRECTED: Gray 100 
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Ensures lists look clean */
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul > li {
+            margin-bottom: 0.5rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        ul > li::before {
+            content: '•';
+            color: #1d4ed8; /* primary blue dot */
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+            position: absolute;
+            left: 0;
+        }
+        .section-heading {
+            border-bottom: 2px solid #e5e7eb; /* Gray 200 */
+            padding-bottom: 0.5rem;
+            margin-top: 2.5rem;
+        }
+        /* Style for the mandatory list of Licensee Entities */
+        .licensee-list {
+            margin-top: 0.5rem;
+            padding: 0.75rem;
+            background-color: #f0f9ff; /* Light Blue Background */
+            border: 1px dashed #93c5fd; /* Light Blue Border */
+            border-radius: 0.5rem;
+            font-style: italic;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body class="bg-secondary font-sans min-h-screen p-4 sm:p-8">
+
+    <div class="max-w-4xl mx-auto bg-white shadow-xl rounded-xl p-6 sm:p-10 lg:p-12">
+
+        <header class="text-center mb-10">
+            <h1 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-2">Internal Access Policy and Terms of Use for SosiaFeed</h1>
+            <p class="text-sm text-gray-500">Effective Date: October 29, 2025</p>
+        </header>
+
+        <section class="text-gray-700 leading-relaxed mb-8">
+            <p class="mb-4">
+                This Internal Access Policy and Terms of Use (the <strong>"Policy"</strong>) is a licensing agreement between <strong>Ahmad Naqiuddin</strong> (the <strong>"Developer/Owner"</strong>) and the <strong>Licensee Entities</strong> (as defined below) concerning the use of the <strong>SosiaFeed</strong> application (the <strong>"Application"</strong>).
+            </p>
+            <p>
+                The Application is owned by the Developer/Owner and is provided under a limited license for strict internal and non-commercial operations.
+            </p>
+        </section>
+
+        <!-- Section 1 -->
+        <h2 class="section-heading text-2xl font-semibold text-gray-800">1. Definitions</h2>
+        <section class="mt-4 mb-8 space-y-3">
+            <p>
+                <strong>Developer/Owner:</strong> Ahmad Naqiuddin, who retains all intellectual property rights, title, and interest in the Application.
+            </p>
+            <p>
+                <strong>Application:</strong> <strong>SosiaFeed</strong>, designed solely for internal use to display video feeds from authorized TikTok profiles on internal websites.
+            </p>
+            <p>
+                <strong>Licensee Entities:</strong> The specific companies, projects, or entities <strong>personally authorized by the Developer/Owner</strong> to use the Application internally. These authorized entities are:
+                <span class="block licensee-list text-gray-700"><strong>AMTIS Solution Sdn Bhd</strong></span>
+            </p>
+            <p>
+                <strong>Authorized Users:</strong> Personnel of the Licensee Entities authorized to access the Application for its intended internal purpose.
+            </p>
+        </section>
+
+        <!-- Section 2 -->
+        <h2 class="section-heading text-2xl font-semibold text-gray-800">2. Grant of Internal License</h2>
+        <section class="mt-4 mb-8">
+            <p>
+                The Developer/Owner grants the Licensee Entities a limited, non-exclusive, non-transferable, revocable license to use the Application exclusively for <strong>internal, non-commercial, operational purposes</strong> of the Licensee Entities. This license is conditional upon strict adherence to this Policy and all external platform terms.
+            </p>
+        </section>
+
+        <!-- Section 3 -->
+        <h2 class="section-heading text-2xl font-semibold text-gray-800">3. Scope of Use and Restrictions</h2>
+        <section class="mt-4 mb-8">
+            <ul class="text-base space-y-3">
+                <li><strong>Internal Use Only:</strong> The Application must <strong>never</strong> be made available to the general public or external customers. The access provided is strictly for personnel of the Licensee Entities.</li>
+                <li><strong>Compliance with TikTok Terms:</strong> Licensee Entities and Authorized Users must strictly comply with all applicable terms, policies, and guidelines established by TikTok, including the TikTok Developer Terms of Service.</li>
+                <li><strong>Prohibited Actions:</strong> Licensee Entities shall not copy, modify, distribute, sell, or sublicense the Application, nor use it for any illegal, unethical, or competitive purpose against the Developer/Owner or TikTok.</li>
+                <li><strong>Data Minimization:</strong> Use of the Application must adhere strictly to the data minimization principles outlined in the accompanying <strong>Internal Privacy Policy for SosiaFeed</strong>.</li>
+            </ul>
+        </section>
+
+        <!-- Section 4 -->
+        <h2 class="section-heading text-2xl font-semibold text-gray-800">4. Responsibility and Indemnification</h2>
+        <section class="mt-4 mb-8">
+            <p class="mb-4">
+                <strong>Security:</strong> Licensee Entities are solely responsible for the security, protection, and proper use of the Application and any associated access credentials (like TikTok Access Tokens) within their internal systems.
+            </p>
+            <p class="p-3 bg-red-50 border-l-4 border-red-500 text-sm">
+                <strong>Indemnification:</strong> Licensee Entities agree to indemnify, defend, and hold harmless the Developer/Owner from any and all claims, damages, liabilities, and expenses (including attorney's fees) arising from the Licensee Entities' or Authorized Users' use, misuse, or breach of this Policy or violation of any TikTok terms.
+            </p>
+        </section>
+
+        <!-- Section 5 -->
+        <h2 class="section-heading text-2xl font-semibold text-gray-800">5. Termination</h2>
+        <section class="mt-4 mb-8">
+            <p>
+                This license is effective until terminated. The Developer/Owner may terminate this license at any time, with or without cause, by providing written notice to the Licensee Entities. Upon termination, all use of the Application must immediately cease.
+            </p>
+        </section>
+
+        <!-- Section 6 -->
+        <h2 class="section-heading text-2xl font-semibold text-gray-800">6. Contact Information</h2>
+        <section class="mt-4">
+            <p class="mb-2">
+                For questions regarding this Policy, the license, or the Application, please contact the Developer/Owner:
+            </p>
+            <div class="bg-secondary p-4 rounded-lg border border-gray-200">
+                <p class="mb-1"><strong>Application Owner/Developer:</strong> Ahmad Naqiuddin</p>
+                <p><strong>Developer Email:</strong> <a href="mailto:naqiu289@gmail.com" class="text-primary hover:underline">naqiu289@gmail.com</a></p>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>
